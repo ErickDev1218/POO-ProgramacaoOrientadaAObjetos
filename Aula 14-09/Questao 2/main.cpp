@@ -8,7 +8,7 @@ int main(){
     
 
     
-    cout << "Ola, voce chegou no sistema de veiculos. Vamos comecar!" << endl;
+    cout << "Ola, voce chegou no sistema de veiculos. Antes de comecar gostaria de pedir para que todas as suas entradas nao sejam separadas por espacos (exemplo:Fiat Uno, use: FiatUno)!" << endl;
 
     cout << "Digite o peso do veiculo: ";
     cin >> peso;
