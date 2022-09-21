@@ -1,9 +1,11 @@
+#pragma once
 #include <iostream>
+#include <string>
 #include "VeiculoAquatico.h"
 #include "VeiculoTerrestre.h"
 using namespace std;
 
-class VeiculoAnfibio: public VeiculoAquatico,VeiculoTerrestre{
+class VeiculoAnfibio: virtual public VeiculoAquatico,VeiculoTerrestre{
     public:
         //Construtor
         VeiculoAnfibio(string nome, string marca,/*Terrestre ->*/ string valor, string velocidade,/*Aquatico->*/ string tipo, string tamanho,/*VeiculoAnf->*/ string novonome, string novotipo);

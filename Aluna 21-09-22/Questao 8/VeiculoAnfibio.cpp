@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "VeiculoAnfibio.h"
 using namespace std;
 

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "Veiculo.h"
 using namespace std;
 
@@ -26,5 +27,5 @@ string Veiculo::getnome(){
 }
 
 string Veiculo::getmarca(){
-    return nome;
+    return marca;
 }
