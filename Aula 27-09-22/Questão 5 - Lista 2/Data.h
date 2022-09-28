@@ -8,6 +8,8 @@ class Data{
     public:
         //Construtor;
         Data(int dia, int mes, int ano);
+        Data(int dia, string mes, int ano);
+        
 
         //Gets;
         int getmes();
@@ -24,6 +26,7 @@ class Data{
 
         //Calcular quantidade de dias do ano até aquele mês;
         int Calc(int dia, int mes);
+        int Calc(int dia, string mes);
 
     private:
         int mes;
