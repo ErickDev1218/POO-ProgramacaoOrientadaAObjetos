@@ -16,7 +16,4 @@ class poupanca:public conta{
     private:
         int rendimento;
 };
-
-
-
 #endif
