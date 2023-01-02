@@ -1,0 +1,6 @@
+Uma classe abstrata é sempre uma superclasse ou classe-base.
+Ela é usada para ser um "molde" para as outras classes que irão herda-las.
+Não é possivel instanciar objetos desse tipo de forma direta, apenas acessando-a a partir de uma classe-derivada (uma classe que a herdou).
+Portanto, as classes abstratas são classes que servem unicamente para servir de modelo para as classes concretas.
+
+As classes concretas são as classes que ou herdam outras classes ou funcionam por si só, podendo ser instanciado a qualquer momento um objeto deste tipo.

@@ -1,0 +1,5 @@
+DawnCasting é usado para converter um objeto de uma classe-base para um um objeto da classe-derivada.
+Importante lembrar que essa operação deve ser feita de forma explicita, pois pode não dar certo e ser lançado uma exceção.
+
+Sem DawnCasting não é possivel acessar metodos da classe-derivada.
+Também não é possivel fazer um objeto da classe-derivada para a classe-base.
